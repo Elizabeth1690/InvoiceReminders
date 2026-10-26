@@ -1,0 +1,163 @@
+
+# ==========================================
+# .NET / C#
+# ==========================================
+
+# Compiled binaries and build artifacts
+**/bin/
+**/obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# .NET test results and coverage
+**/TestResults/
+**/coverage/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# NuGet packages and temporary files
+*.nupkg
+*.snupkg
+.nuget/packages/
+project.lock.json
+
+# ==========================================
+# FRONTEND / NODE.JS / REACT / VITE
+# ==========================================
+
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+**/.next/
+**/.astro/
+**/out/
+
+# Test coverage and reports
+**/coverage/
+**/playwright-report/
+**/test-results/
+**/vitest-results/
+
+# Package manager and tool caches
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.turbo/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local application settings that may contain secrets
+appsettings.*.local.json
+**/appsettings.*.local.json
+secrets.json
+**/secrets.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+
+# ==========================================
+# DOCKER / LOCAL ENVIRONMENT
+# ==========================================
+
+# Local overrides (keep shared templates in Git)
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Local volumes and database files
+**/data/
+**/mongo-data/
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# LOGS / TEMPORARY FILES
+# ==========================================
+
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# LOCAL DATABASE / TOOL FILES
+# ==========================================
+
+*.pid
+*.seed
+*.pid.lock
+# Local project backups
+backup-csproj-*/
+*.slnx.bak
+
+# TypeScript incremental build cache
+**/*.tsbuildinfo
