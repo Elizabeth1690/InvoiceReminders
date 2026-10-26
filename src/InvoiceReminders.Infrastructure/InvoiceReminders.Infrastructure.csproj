@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<PackageReference Include="MongoDB.Driver" Version="3.*" />
+		<PackageReference Include="MailKit" Version="4.*" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.*" />
+		<PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="10.0.*" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.*" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.*" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.*" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\InvoiceReminders.Application\InvoiceReminders.Application.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<InternalsVisibleTo Include="InvoiceReminders.Infrastructure.Tests" />
+	</ItemGroup>
+</Project>

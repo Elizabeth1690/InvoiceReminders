@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<UserSecretsId>invoice-reminders-api</UserSecretsId>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.*" />
+		<PackageReference Include="Scalar.AspNetCore" Version="2.*" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\InvoiceReminders.Application\InvoiceReminders.Application.csproj" />
+		<ProjectReference Include="..\InvoiceReminders.Infrastructure\InvoiceReminders.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>
